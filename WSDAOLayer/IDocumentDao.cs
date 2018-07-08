@@ -1,12 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using DTO;
+﻿using DTO;
 
 namespace WSDAOLayer
 {
-     public interface IDocumentDao
+    public interface IDocumentDao
     {
          Documento DocumentById(FiltroDocumento filtro);
          Documentos ListaDocumentos();
